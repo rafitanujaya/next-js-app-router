@@ -1,6 +1,5 @@
 const DetailProductPage = (props) => {
     const {params} = props
-    console.log(params);
   return (
     <div>
       <h1>{params.slug? "Halaman detail product" : "Halaman product"}</h1>
